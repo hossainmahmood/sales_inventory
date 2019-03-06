@@ -15,6 +15,22 @@ class CreateInventoriesTable extends Migration
     {
         Schema::create('inventories', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('ProductID');
+            $table->string('ReorderLevel');
+            $table->string('TargetLevel');
+            $table->string('MinimumReorderQuantity');
+            $table->string('Received');
+            $table->string('OnOrder');
+            $table->string('Shrinkage');
+            $table->string('Shipped');
+            $table->string('Allocated');
+            $table->string('BackOrdered');
+            $table->string('InitialLevel');
+            $table->string('OnHand');
+            $table->string('Available');
+            $table->string('CurrentLevel');
+            $table->string('BelowTargetLevel');
+            $table->string('ReorderQuantity');
             $table->timestamps();
         });
     }
