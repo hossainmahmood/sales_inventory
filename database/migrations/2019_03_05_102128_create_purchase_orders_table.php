@@ -15,6 +15,27 @@ class CreatePurchaseOrdersTable extends Migration
     {
         Schema::create('purchase_orders', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('OrderDate');
+            $table->string('SupplierID');
+            $table->string('CreatedById');
+            $table->string('CreationDate');
+            $table->string('ExpectedDate');
+            $table->string('ShippingFee');
+            $table->string('Taxes');
+            $table->string('PaymentDate');
+            $table->string('PaymentAmount');
+            $table->string('PaymentMethod');
+            $table->string('Notes');
+            $table->string('OrderSubTotal');
+            $table->string('OrderTotal');
+            $table->string('SubmittedById');
+            $table->string('SubmittedDate');
+            $table->string('ClosedById');
+            $table->string('ClosedDate');
+            $table->string('IsCompleted');
+            $table->string('IsSubmitted');
+            $table->string('IsNew');
+            $table->string('StatusText');
             $table->timestamps();
         });
     }

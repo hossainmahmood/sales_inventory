@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/opt/lampp/htdocs/sales_inventory/database/migrations/2019_03_05_101958_create_orders_table.php</file>
-            <file>file:/opt/lampp/htdocs/sales_inventory/database/migrations/2019_03_05_101925_create_order_details_statuses_table.php</file>
-            <file>file:/opt/lampp/htdocs/sales_inventory/database/migrations/2019_03_05_102015_create_order_statuses_table.php</file>
-            <file>file:/opt/lampp/htdocs/sales_inventory/database/migrations/2019_03_05_101902_create_order_details_table.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -15,6 +15,9 @@ class CreateWizardPagesTable extends Migration
     {
         Schema::create('wizard_pages', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('PageNumber');
+            $table->string('WizardID');
+            $table->string('FormName');
             $table->timestamps();
         });
     }

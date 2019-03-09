@@ -15,6 +15,14 @@ class CreatePurchaseOrderDetailsTable extends Migration
     {
         Schema::create('purchase_order_details', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('PurchaseOrderID');
+            $table->string('ProductID');
+            $table->string('Quantity');
+            $table->string('UnitCost');
+            $table->string('ExtendedPrice');
+            $table->string('DateReceived');
+            $table->string('PostedToInventory');
+            $table->string('IsSubmitted');
             $table->timestamps();
         });
     }

@@ -15,6 +15,25 @@ class CreateShippersTable extends Migration
     {
         Schema::create('shippers', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('Company');
+            $table->string('FirstName');
+            $table->string('LastName');
+            $table->string('EmailAddress');
+            $table->string('JobTitle');
+            $table->string('BusinessPhone');
+            $table->string('HomePhone');
+            $table->string('MobilePhone');
+            $table->string('FaxNumber');
+            $table->string('Address');
+            $table->string('City');
+            $table->string('StateProvince');
+            $table->string('ZipPostal');
+            $table->string('CountryRegion');
+            $table->string('WebPage');
+            $table->string('Notes');
+            $table->string('Attachments');
+            $table->string('ShipperName');
+            $table->string('FileAs');
             $table->timestamps();
         });
     }
