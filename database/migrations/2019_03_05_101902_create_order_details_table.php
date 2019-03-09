@@ -23,7 +23,6 @@ class CreateOrderDetailsTable extends Migration
             $table->string('ExtendedPrice');
             $table->string('StatusID');
             $table->string('InsufficientInventory');
-            $table->string('InsufficientInventory');
             $table->string('IsProductAllocated');
             $table->string('IsInvoiced');
             $table->string('IsShipped');
