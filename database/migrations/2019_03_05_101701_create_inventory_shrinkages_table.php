@@ -14,7 +14,10 @@ class CreateInventoryShrinkagesTable extends Migration
     public function up()
     {
         Schema::create('inventory_shrinkages', function (Blueprint $table) {
-            $table->increments('id');
+            $table->string('ProductID');
+            $table->string('Quantity');
+            $table->string('Reason');
+            $table->string('Date');
             $table->timestamps();
         });
     }
